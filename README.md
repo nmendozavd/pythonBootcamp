@@ -1,1 +1,1 @@
-![alt text](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
+![alt text](https://i.pinimg.com/originals/64/79/b9/6479b9448caa384c54cdeceb1578b5ae.jpg)
