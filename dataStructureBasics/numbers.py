@@ -1,7 +1,19 @@
-# 
-print("Addition", 2 + 2)
-print("Substraction", 3 - 1)
-print("Multiplication", 3 * 2)
-print("Divsion", 1 / 2)
-print("Modulo", 7 % 4)
+# Variable assignments, numbers, and types
+
+add = 2 + 2
+
+subtract = 3 - 1
+
+multiplication = 3 * 2
+
+division = 1 / 2 
+
+modulo = 7 % 4
+
+print("Addition:", add)
+print("Substraction:", subtract)
+print("Multiplication:", multiplication)
+print("Divsion:", division)
+print("Modulo:", modulo)
+print("type:", type(add))
 
