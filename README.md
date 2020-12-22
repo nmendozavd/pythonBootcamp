@@ -1,1 +1,1 @@
-![alt text](https://flyclipart.com/thumb2/python-logo-png-transparent-python-logo-images-205864.png)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
