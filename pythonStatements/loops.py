@@ -46,3 +46,33 @@ for key, value in myDict.items():
 for value in myDict.values():
   print(value)
 
+# while loops 
+# while some_boolean_condition
+#   do_something
+# else 
+# do something else
+
+
+x = 0
+
+while (x < 5):
+  print(f'the current value of {x}')
+  x += 1
+else:
+  print('x is not less than 5')
+
+# break: breaks out of the current enclosing loop
+# continue: goes to the top of the closet enclosing loop
+# pass: does nothing at all (place holder)
+
+myString = 'Sammy'
+
+for letter in myString:
+  if letter == 'a':
+    continue
+  print(letter)
+
+for letter in myString:
+  if letter == 'a':
+    break
+  print(letter)
