@@ -144,17 +144,14 @@ def summer_69(arr):
 
 # Write a function that takes in a list of integers and returns True if it contains 007 in order
 
-def spy_game(num_list):
-  for i in range(len(num_list)):
-    if num_list[i] == 0:
-      j = i + 1
-      for j in range(len(num_list)):
-        if num_list[j] == 0:
-          k = j + 1
-          for k in range(len(num_list)):
-            if num_list[k] == 7:
-              return True
-  return False
+def spy_game(nums):
+  code = [0,0,7,'x']
+  
+  for i in range(len(nums)):
+    if nums[i] == code[0]:
+      code.pop(0)
+      
+  return len(code) == 1
 
 print(spy_game([1, 2, 4, 0, 0, 7, 5])) # - -> True
 print(spy_game([1, 0, 2, 4, 0, 5, 7])) #- -> True
